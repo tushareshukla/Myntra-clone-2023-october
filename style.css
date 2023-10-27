@@ -25,7 +25,7 @@ a {
   text-transform: uppercase;
   font-size: 12px;
   padding: 30px 0px;
-  margin: 5px;
+  
 }
 a:hover {
   border-bottom: #fa56c1 solid 3px;
@@ -33,10 +33,10 @@ a:hover {
 .logo_container {
   margin-left: 3%;
 }
-.navbar_container {
+.nav_container {
   display: flex;
   min-width: 512px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .search_container {
@@ -90,7 +90,6 @@ a:hover {
   background-color: #fefefe;
 }
 .discount-vocher {
-  
   width: 100%;
   height: 20%;
 }
@@ -105,38 +104,79 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-margin: 0px;
-padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-.crazy-banner-left{
+.crazy-banner-left {
   float: left;
   width: 50%;
   height: auto;
 }
-.crazy-banner-right{
+.crazy-banner-right {
   float: right;
   width: 50%;
   height: auto;
 }
-.fco{
+.fco {
   width: 100%;
   height: auto;
 }
 .offers-myntra{
   display: flex;
+  flex-direction: row;
 
   flex-direction: row;
- 
+  width: 100%;
+  height: 60%;
   
- 
-
 }
-.offers-thumbnail{
+.offers-thumbnail {
   width: 100%;
   display: flex;
-  height: 272px;
-  min-height: 100px;
+  flex-wrap: wrap;
+  min-height: 150px;
+  height: 40vh;
   
- 
- 
+}
+.myntra-banner-add{
+  width: 100%;
+  height: 50%;
+}
+
+.myntra-banner-add{
+  padding: 0 50px;
+}
+.category_special{
+  width: 100%;
+  height: auto;
+}
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  background: #FAFBFC;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column h3 {
+  color: #282c3f;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.footer_column a {
+  color: #696b79;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.copyright {
+  color: #94969f;
+  text-align: end;
+  padding: 15px;
 }
